@@ -1,4 +1,4 @@
-# install & configure jenkins server
+# install & configure jenkins server .
   
 # updating system repos.
 sudo apt-get update
