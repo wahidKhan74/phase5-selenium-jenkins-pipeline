@@ -29,11 +29,6 @@ pipeline {
                 sh 'mvn clean package -DskipsTest'
             }
         }        
-        
-        stage('Deploy stage') {
-            steps {
-                echo '-------- This is a deploy stage -----'
-            }
-        }
+       
     }
 }
