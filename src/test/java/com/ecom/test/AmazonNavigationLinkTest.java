@@ -46,7 +46,7 @@ class AmazonNavigationLinkTest {
 		assertTrue(mobileLink.isEnabled());
 		// click action
 		mobileLink.click();
-		String expected = "Mobile Phones: Buy New Mobiles Online at Best Prices in India | Buy Cell Phones Online - Amazon.in";
+		String expected = "Amazon.in Bestsellers: The most popular items on Amazon";
 		assertEquals(expected, driver.getTitle());
 	}
 
